@@ -29,15 +29,23 @@ require("lazy").setup({
         {'williamboman/mason-lspconfig.nvim'},
         {'neovim/nvim-lspconfig'},
         {'hrsh7th/cmp-nvim-lsp'},
-        {'hrsh7th/nvim-cmp'},
-        {'hrsh7th/cmp-buffer'},
-        {'hrsh7th/cmp-path'},
-        {'saadparwaiz1/cmp_luasnip'},
         {
-                'L3MON4D3/LuaSnip',
-                dependencies = {  "rafamadriz/friendly-snippets" },
+            'hrsh7th/nvim-cmp', -- autocomplete
+            dependencies = {
+                'hrsh7th/cmp-buffer', -- source for test in buffer
+                'hrsh7th/cmp-path', -- source for file system paths in commands
+                'L3MON4D3/LuaSnip', -- snippet engine
+                'rafamadriz/friendly-snippets', -- useful snippets library
+                'saadparwaiz1/cmp_luasnip' -- for lua autocompletion
+            }
         },
-        { "rafamadriz/friendly-snippets" }
+        {
+            'mfussenegger/nvim-lint',
+            event = {
+                "BufReadPre",
+                "BufNewFile",
+            }
+        },
 },
 {
 

@@ -4,7 +4,7 @@ lint.linters_by_ft = {
     css = { "stylelint" },
 }
 
-vim.keymap.set("n", "<leader>f", function()
+vim.keymap.set("n", "<leader>l", function()
     print("Try lint")
     lint.try_lint()
 end, {desc = "Trigger linting for current file" })

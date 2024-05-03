@@ -46,6 +46,10 @@ require("lazy").setup({
                 "BufNewFile",
             }
         },
+        {
+            'stevearc/conform.nvim',
+            event = { "BufReadPre", "BufNewFile" },
+        },
 },
 {
 

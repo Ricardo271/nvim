@@ -24,6 +24,7 @@ require("lazy").setup({
                 dependencies = { "nvim-lua/plenary.nvim" }
         },
         { "tpope/vim-fugitive" },
+        { "tpope/vim-commentary" },
         {'folke/tokyonight.nvim'},
         {'williamboman/mason.nvim'},
         {'williamboman/mason-lspconfig.nvim'},

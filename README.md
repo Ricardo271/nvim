@@ -14,3 +14,8 @@ It also calls the config property of that files and the plugin `require.config` 
 
 ### Lualine
 - Requires a Nerd Font to correctly display the icons
+
+ ### vim-commentary
+- For commenting and uncommenting lines
+- gcc for commenting
+- gc for commenting in visual mode

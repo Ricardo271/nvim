@@ -28,3 +28,6 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
 
+-- Sets how neovim will display certain whitespace characters in the editor.
+vim.opt.list = true
+vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }

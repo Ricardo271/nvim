@@ -10,7 +10,7 @@ return {
 		config = function()
 			local masonlspconfig = require("mason-lspconfig")
 			masonlspconfig.setup({
-				ensure_installed = { "lua_ls", "gopls", "clangd" }, -- stylelint, prettierd, html-lsp
+				ensure_installed = { "lua_ls", "clangd" }, -- stylelint, prettierd, html-lsp
 			})
 
 			local lsp_capabilities = require("cmp_nvim_lsp").default_capabilities()

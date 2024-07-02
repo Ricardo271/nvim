@@ -34,6 +34,7 @@ return {
 								workspace = {
 									library = {
 										vim.env.VIMRUNTIME,
+                                        "${3rd}/love2d/library",
 									},
 								},
 							},

@@ -20,5 +20,6 @@
   "nvim-web-devicons": { "branch": "master", "commit": "e37bb1feee9e7320c76050a55443fa843b4b6f83" },
   "plenary.nvim": { "branch": "master", "commit": "a3e3bc82a3f95c5ed0d7201546d5d2c19b20d683" },
   "telescope.nvim": { "branch": "master", "commit": "6312868392331c9c0f22725041f1ec2bef57c751" },
-  "vim-commentary": { "branch": "master", "commit": "c4b8f52cbb7142ec239494e5a2c4a512f92c4d07" }
+  "vim-commentary": { "branch": "master", "commit": "c4b8f52cbb7142ec239494e5a2c4a512f92c4d07" },
+  "which-key.nvim": { "branch": "main", "commit": "8ab96b38a2530eacba5be717f52e04601eb59326" }
 }

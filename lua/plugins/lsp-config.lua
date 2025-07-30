@@ -54,6 +54,9 @@ return {
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, { desc = "Hover information about symbol" })
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, { desc = "See definition" })
 			vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, { desc = "See code actions" })
+
+            vim.diagnostic.config({ virtual_text = true }) -- show inline errors
+            -- vim.diagnostic.config({ virtual_lines = true })
 		end,
 	},
 }

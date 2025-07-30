@@ -9,3 +9,5 @@ vim.keymap.set("n", "<leader><leader>", function()
 end, { desc = "Source current file" })
 
 vim.keymap.set("i", "<C-c>", "<Esc>", { desc = "Escape" })
+
+vim.keymap.set('c', '<tab>', '<C-z>', { silent = false }) -- to fix cmp

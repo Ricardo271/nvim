@@ -1,5 +1,7 @@
 # Nvim config files 2.0
 
+Currently installing nvim via appimage release to prevente pacman updates
+
 Package Manager: Lazy
 Colorscheme: Catppuccin
 

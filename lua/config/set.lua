@@ -32,3 +32,5 @@ vim.opt.colorcolumn = "80"
 vim.opt.list = true
 vim.opt.listchars = { tab = '  ', trail = '·', nbsp = '␣' }
 -- vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+
+vim.opt.winborder = "rounded" -- https://neovim.io/doc/user/options.html#'winborder'

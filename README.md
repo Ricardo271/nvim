@@ -3,7 +3,12 @@
 Currently installing nvim via appimage release to prevente pacman updates
 
 Package Manager: Lazy
-Colorscheme: Catppuccin
+LSPs installer: Mason
+
+## LSPs
+See [common configurations](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md).
+Create file for configurations in lsp/.
+Enable lsp in lua/ricardo/lsp.lua.
 
 ## Plugins
 

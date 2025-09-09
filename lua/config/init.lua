@@ -18,3 +18,16 @@ autocmd('TextYankPost', {
         })
     end,
 })
+
+
+local diagnostics_active = true
+vim.api.nvim_create_user_command("ToggleDiagnostics", function ()
+    diagnostics_active = not diagnostics_active
+    if diagnostics_active then
+        vim.diagnostic.enable()
+        print("Diagnostics enabled")
+    else
+        vim.diagnostic.enable(false)
+        print("Diagnostics disabled")
+    end
+end, {})
